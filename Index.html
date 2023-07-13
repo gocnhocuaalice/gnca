@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Manga Uploader - Jelly Comics</title>
+    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="container">
+            <div class="mb-20 mt-50 text-center">
+                <span class="maintitle">Manga Uploader - Jelly Comics</span>
+            </div>
+            <div class="mb-20 text-center">
+                <span class="content">Our Service unlimited solutions to all your business needs. in the installation package we prepare search engine optimization, social media support, we provide corporate identity and graphic design services.</span>
+            </div>
+            <div class="grid-container mt-50">
+                <div class="grid-items">
+                    <label>Tiêu đề</label>
+                    <input class="form-control" type="text" name="title" id="title" placeholder="Nhập tên truyện...">
+                </div>
+                <div class="grid-items">
+                    <label>Tên khác</label>
+                    <input class="form-control" type="text" name="othertitle" id="othertitle" placeholder="Nhập tên gốc...">
+                </div>
+                <div class="grid-items">
+                    <label>Tác giả</label>
+                    <input class="form-control" type="text" name="author" id="author" placeholder="Nhập tên tác giả...">
+                </div>
+                <div class="grid-items">
+                    <label>Minh họa</label>
+                    <input class="form-control" type="text" name="artist" id="artist" placeholder="Nhập tên họa sĩ...">
+                </div>
+                <div class="grid-items">
+                    <label>Nhóm dịch</label>
+                    <input class="form-control" type="group" name="group" id="group" placeholder="Nhập tên nhóm dịch...">
+                </div>
+                <div class="grid-items">
+                    <label>Link ảnh bìa</label> <a href="#" >Upload</a>
+                    <input class="form-control" type="text" name="image" id="image" placeholder="Nhập link ảnh vừa upload...">
+                </div>
+            </div>
+            <div class="grid-items" style="margin-top: 20px;">
+                <label>Mô tả</label>
+                <textarea type="text" class="form-control vertical" rows="10" id="des" name="des" placeholder="Mô tả" style="height: 150px;"></textarea>
+            </div>
+            <div class="grid-items" style="margin-top: 20px;">
+                <input type="button" class="form-control btn-primary" value="Create comic" onclick="createcomic()"></input>
+            </div>
+            <div class="uploaded" id="uploaded" style="margin-top: 20px;"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+    <div style="min-height: 100px;"></div>
+</body>
+
+</html>
