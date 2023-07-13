@@ -80,7 +80,6 @@ label {
     border-color: #0062cc;
 }
 .uploaded {
-    margin-top: 1rem;
     width: calc(100% - 14px);
     min-height: 350px;
     padding: 7px;
